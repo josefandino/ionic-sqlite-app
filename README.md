@@ -1,4 +1,34 @@
-# ionic-sqlite-app
-In this tutorial, we will learn how to create Ionic 4 Angular CRUD application and implement SQLite Native plugin to store the data in the SQLite Database. We will create the Create, Read, Update and Delete operation to manage the data in the database. Moreover, we will also learn to load the dummy data from the sql database file using HttpClient service.
+# ionic-sqlite-app - Plugin de cordova
 
-[Ionic 4 SQLite Database CRUD App Example Tutorial](https://www.positronx.io/ionic-sqlite-database-crud-app-example-tutorial/)
+git clone https://github.com/josefandino/ionic-sqlite-app.git
+
+# ingresar a la carpeta
+cd ionic-sqlite-app
+
+# instalar las libririas
+npm i
+
+# Agregar cordova
+
+### Se debe tener instalado android Studio, ya que este plugin no funciona en el navegador
+
+### Para agregar la platforma de cordova en el proyecto pude utilizar los siguientes comandos:
+ionic build --prod
+ionic cordova run android
+
+ionic cordova platform add android
+
+ionic cordova resources --force
+ionic cordova build android
+
+### Para correr el proyevto en Android Studio
+ionic cordova run android 
+
+### Si le diice que tiene instalado capacitor, puede utilizar esta línea  de comandos:
+ionic integrations disable capacitor
+
+## Si llegas a tener una duda, me pudes escribir:
+
+
+
+
