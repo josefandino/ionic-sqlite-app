@@ -13,12 +13,15 @@ npm i
 ### Se debe tener instalado android Studio, ya que este plugin no funciona en el navegador
 
 ### Para agregar la platforma de cordova en el proyecto pude utilizar los siguientes comandos:
+
 ionic build --prod
+
 ionic cordova run android
 
 ionic cordova platform add android
 
 ionic cordova resources --force
+
 ionic cordova build android
 
 ### Para correr el proyevto en Android Studio
